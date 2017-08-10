@@ -1,0 +1,12 @@
+{
+  "name": "github-contributions",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "jsonfile": "^2.4.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
