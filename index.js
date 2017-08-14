@@ -16,7 +16,7 @@ const USER_SESSION = '<YOUR SESSION COOKIE>';
 /**
  * For older versions of GitHub use the regex /class="contrib-number">(.*) total/
  */
-const PROFILE_REGEX = /(.*) contribution/;
+const PROFILE_REGEX = /\s([,\d]+) contribution/;
 
 const OUTPUT_FILE = './contribs.json';
 const TROTTLE = 100;
